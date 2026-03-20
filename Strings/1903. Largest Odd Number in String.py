@@ -16,4 +16,4 @@ class Solution(object):
 
 s = '35427'
 obj = Solution()
-print(obj.removeOuterParentheses(s))
+print(obj.largestOddNumber(s))
