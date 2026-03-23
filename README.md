@@ -1,4 +1,4 @@
-# LeetCode Solutions (Python)
+# LeetCode Solutions (Python / C)
 
 Welcome to my repository of LeetCode solutions! My goal is to master Data Structures and Algorithms while maintaining clean, readable, and efficient code.
 
@@ -6,16 +6,15 @@ Welcome to my repository of LeetCode solutions! My goal is to master Data Struct
 The solutions are organized by **Topic** to make it easier to practice specific patterns.
 
 ## 🛠️ Tech Stack
-- **Language:** Python 3.x
+- **Language:** Python and C
 - **Editor:** VS Code
 - **Version Control:** Git & GitHub
 
 ## 📈 Progress Tracker
 | Topic | Problems Solved |
 | :--- | :--- |
-| Strings | 5 |
-| Binary Search | 2 |
-| Arrays | 10 |
+| Strings | 13 |
+| LinkedList | 10 |
 
 ---
 *Keep coding and stay consistent!*
