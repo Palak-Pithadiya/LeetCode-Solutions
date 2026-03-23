@@ -30,6 +30,7 @@ Node* convertAll2LL(int arr[], int size) {
 }
 
 int checkIfPresent(Node* head, int val){
+  if(head == NULL) return 0;
   Node* temp = head;
   while(temp) {
     if(temp->data == val) {
