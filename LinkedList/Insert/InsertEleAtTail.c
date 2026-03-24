@@ -42,10 +42,10 @@ void print(Node* head) {
 Node* insertTail(Node* head, int val) {
   Node* newNode = (Node*)malloc(sizeof(Node));
   if(newNode == NULL) return head;
-  if(head == NULL) return newNode;
 
   newNode->data = val;
   newNode->next = NULL;
+  if(head == NULL) return newNode;
 
   Node* temp = head;
   while(temp->next != NULL) {
