@@ -14,7 +14,8 @@ The solutions are organized by **Topic** to make it easier to practice specific 
 | Topic | Problems Solved |
 | :--- | :--- |
 | Strings | 13 |
-| LinkedList | 10 |
+| LinkedList | 30 |
+| Recursion | 10 |
 
 ---
 *Keep coding and stay consistent!*
