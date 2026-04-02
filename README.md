@@ -16,6 +16,7 @@ The solutions are organized by **Topic** to make it easier to practice specific 
 | Strings | 13 |
 | LinkedList | 30 |
 | Recursion | 10 |
-
+| Bit Manipulation | 12 |
+| Stack & Queues | 20 |
 ---
 *Keep coding and stay consistent!*
