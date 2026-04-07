@@ -1,17 +1,25 @@
 class Solution:
     def fractionalKnapsack(self, val, wt, cap):
         # Your code goes here
-        total = 0
-        i = 0
-        while i < len(wt):
-            if cap - wt[i] < 0:
-                temp = (cap * val[i]) / wt[i]
-                total += temp 
-                return total
+        items = []
+        for i in range(len(val)):
+            ratio = val[i] / wt[i]
+            items.append(val[i], wt[i], ratio)
+
+        items.sorted(key=lambda x = x[:2], reversed = True)
+        total_value = 0.0        
+        
+        for v, w, r in items:
+            if cap < 0:
+                break
+            if cap - wt[i] >= 0:
+                cap -= w
+                total_value += v
             else:
-                cap -= wt[i]
-                total +=  val[i]
+                fractional_val = cap * r
+                total_value += fractional_val
+                cap = 0  # Bag is now full
+                break
 
-            i += 1
-
-        return total
+        return total_value
+            
