@@ -10,7 +10,7 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: int
         """
-        self.max_sum = 0
+        self.max_sum = float('inf')
 
         def get_max_gain(node):
             if not node:
