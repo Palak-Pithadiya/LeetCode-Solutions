@@ -4,8 +4,8 @@ class Solution(object):
         res = []
         n = len(nums)
 
-        for i in range(n - 1):
-            while i > 0 and nums[i] == nums[i - 1]:
+        for i in range(n - 2):
+            if i > 0 and nums[i] == nums[i - 1]:
                 continue
             j = i + 1
             k = n - 1
