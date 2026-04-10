@@ -3,11 +3,10 @@ class Solution(object):
         nums.sort()
         res = []
         n = len(nums)
-        i = 0
 
-        while i < n:
-            while i > 0 and i < n and nums[i] == nums[i - 1]:
-                i += 1
+        for i in range(n - 1):
+            while i > 0 and nums[i] == nums[i - 1]:
+                continue
             j = i + 1
             k = n - 1
             while j < k:
@@ -24,6 +23,5 @@ class Solution(object):
                         j += 1
                     while j < k and nums[k] == nums[k + 1]:
                         k -= 1
-            i += 1
 
         return res
